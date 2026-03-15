@@ -1,0 +1,15 @@
+node_modules/
+.env
+.next/
+dist/
+build/
+*.log
+.DS_Store
+.vscode/
+.idea/
+.gemini/
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/android/.gradle
+mobile/build/
