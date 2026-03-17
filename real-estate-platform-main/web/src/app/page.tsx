@@ -18,7 +18,7 @@ export default function Home() {
   const [featuredProperties, setFeaturedProperties] = useState<any[]>([]);
 
   useEffect(() => {
-    fetch(`${API_URL}/api/properties?limit=3`)
+    fetch(`${API_URL}/api/properties?limit=3`, { cache: 'no-store' })
       .then(res => res.json())
       .then(data => {
         if (Array.isArray(data)) {
